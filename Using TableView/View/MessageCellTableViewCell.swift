@@ -9,9 +9,12 @@
 import UIKit
 
 class MessageCellTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var messageBubble: UIView!
+    @IBOutlet weak var label: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        messageBubble.layer.cornerRadius = messageBubble.frame.size.height / 5
         // Initialization code
     }
 

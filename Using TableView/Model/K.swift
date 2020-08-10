@@ -10,4 +10,5 @@ import Foundation
 struct K {
     
     static let cellIdentifier = "cellIdentifier"
+    static let cellNibName = "MessageCellTableViewCell"
 }
